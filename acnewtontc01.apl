@@ -62,7 +62,7 @@ testsuite01 ← ,outer
     ⎕ ← arc chord acnewton∆param.count d
 ∇
 
-⍝ Call the solver with a ordered pair as the RH and print the result.
+⍝ Call the solver with a ordered pair as the RH and return the result.
 ∇d ← driver3 argpair ;arc ;chord
     (arc chord) ← argpair
     d ← arc acnewton∆solve chord
